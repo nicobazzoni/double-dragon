@@ -4,6 +4,7 @@ import { shoes, statistics } from "../constants";
 import { Button, ShoeCard } from "../components";
 import { bigShoe1 } from "../assets/images";
 import { arrowRight } from "../assets/icons";
+import EmailandPhone from "../components/EmailandPhone";
 
 
 const Hero = () => {
@@ -38,7 +39,7 @@ Double Dragon Martial Arts Academy is located in Staten Island, New York and ref
 
         </p>
 
-        <Button label='Shop now' iconURL={arrowRight} />
+       <EmailandPhone />
 
         <div className='flex justify-start items-start flex-wrap w-full mt-20 gap-16'>
           {statistics.map((stat, index) => (

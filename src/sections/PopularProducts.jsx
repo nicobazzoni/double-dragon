@@ -9,8 +9,7 @@ const PopularProducts = () => {
           Top <span className='text-coral-red'> Notch </span> Training
         </h2>
         <p className='lg:max-w-lg mt-2 font-montserrat text-black'>
-          Experience top-notch quality and style with our sought-after
-          selections. Discover a world of comfort, design, and value
+          Experience yourself in full form and power. 
         </p>
       </div>
 

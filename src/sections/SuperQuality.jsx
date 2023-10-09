@@ -21,7 +21,8 @@ Through this course, students have the opportunity to push their skills, techniq
           Our dedication to detail and excellence ensures your satisfaction
         </p>
         <div className='mt-11'>
-          <Button label='View details' />
+
+           
         </div>
       </div>
 

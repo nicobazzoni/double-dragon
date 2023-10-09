@@ -61,7 +61,7 @@ export const services = [
     {
         imgURL: shieldTick,
         label: "Quality Education",
-        subtext: " Thanks to our varied course selection and unique teaching techniques.Double Dragon Martial Arts Academy is located in Staten Island, New York and reflects the vibrant energy of the area.."
+        subtext: " Thanks to our varied course selection and unique teaching techniques you will soon be on the way to learning martial arts"
     },
     {
         imgURL: support,
@@ -112,7 +112,7 @@ export const footerLinks = [
         title: "Get in touch",
         links: [
             { name: "doubledragonnyc@gmail.com", link: "mailto:doubledragonnyc@gmail.com" },
-            { name: "Phone: (718) 913-6133", link: "Phone: (718) 913-6133" },
+      
         ],
     },
 ];
