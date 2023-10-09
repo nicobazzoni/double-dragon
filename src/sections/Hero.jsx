@@ -74,6 +74,8 @@ Double Dragon Martial Arts Academy is located in Staten Island, New York and ref
           ))}
         </div>
       </div>
+   
+
     </section>
   );
 };

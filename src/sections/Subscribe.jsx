@@ -1,20 +1,22 @@
-import { Button } from "../components";
-
 const Subscribe = () => {
   return (
-    <section
-      id='contact-us'
-      className='max-container flex justify-between items-center max-lg:flex-col gap-10'
-    >
-      <h3 className='text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold'>
-        Sign Up for
-        <span className='text-coral-red'> Updates </span>& Newsletter
-      </h3>
-      <div className='lg:max-w-[40%] w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full'>
-        <input type='text' placeholder='subscribe@nike.com' className='input' />
-        <div className='flex max-sm:justify-end items-center max-sm:w-full'>
-          <Button label='Sign Up' fullWidth />
-        </div>
+    <section className=' relative  max-sm:mt-12 p-2 border rounded-md bg-slate-100' style={{width: '800px', height: '600px'}}>
+      <iframe 
+        title="Back Kick" 
+        className="absolute top-0 right-4 w-full h-full" 
+        frameborder="0" 
+        allowfullscreen 
+        mozallowfullscreen="true" 
+        webkitallowfullscreen="true" 
+        allow="autoplay; fullscreen; xr-spatial-tracking" 
+        xr-spatial-tracking 
+        execution-while-out-of-viewport 
+        execution-while-not-rendered 
+        web-share 
+        src="https://sketchfab.com/models/a490933972e2402ca25b7ee374bec080/embed?autostart=1&ui_infos=0&ui_controls=0"
+      ></iframe>
+      <div className='flex flex-col justify-start gap-5 z-10'>
+        {/* You can put additional content here */}
       </div>
     </section>
   );

@@ -20,15 +20,19 @@ const Footer = () => {
             Learn Tae Kwon Do from the best in the world. 
           </p>
           <div className='flex items-center gap-5 mt-8'>
-            {socialMedia.map((icon) => (
-              <div
-                className='flex justify-center items-center w-12 h-12 bg-white rounded-full'
-                key={icon.alt}
-              >
-                <img src={icon.src} alt={icon.alt} width={24} height={24} />
-              </div>
-            ))}
-          </div>
+  {socialMedia.map((icon) => (
+    <a 
+      href={icon.link} 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className='flex justify-center items-center w-12 h-12 bg-white rounded-full'
+      key={icon.alt}
+    >
+      <img src={icon.src} alt={icon.alt} width={24} height={24} />
+    </a>  
+  ))}
+</div>
+
         </div>
 
         <div className='flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap'>

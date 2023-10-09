@@ -88,14 +88,14 @@ export const reviews = [
 
 export const footerLinks = [
     {
-        title: "Products",
+        title: "Goals",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Training", link: "/" },
+            { name: "Discipline", link: "/" },
+            { name: "Fitness", link: "/" },
+            { name: "Strength", link: "/" },
+            { name: "Teamwork", link: "/" },
+            { name: "Self defense", link: "/" },
         ],
     },
     {
@@ -118,7 +118,7 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { src: facebook, alt: "facebook logo" , link: "https://www.facebook.com/d2tkdacademy/"},
+
+    { src: instagram, alt: "instagram logo", link: "https://www.instagram.com/doubledragonny/" },
 ];

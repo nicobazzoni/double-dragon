@@ -1,14 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const EmailandPhone = () => {
-    const [showEmailField, setShowEmailField] = useState(false);
-    const [phoneNumber, setPhoneNumber] = useState('718-913-6133'); // Replace with your number or dynamic value
-  
+    const emailAddress = "doubledragonnyc@gmail.com";
+    const phoneNumber = '718-913-6133';
+
     return (
       <div>
-        {/* Button to show email field */}
-        <button onClick={() => setShowEmailField(!showEmailField)}>Email</button>
-        {showEmailField && <input type="email" placeholder="doubledragonnyc@gmail.com" />}
+        {/* Button to open default email client with prefilled address */}
+        <button onClick={() => window.location.href = `mailto:${emailAddress}`}>Email</button>
   
         <br /><br />
   
@@ -16,6 +15,6 @@ const EmailandPhone = () => {
         <button onClick={() => window.location.href = `tel:${phoneNumber}`}>Call {phoneNumber}</button>
       </div>
     );
-  }
+}
   
-  export default EmailandPhone;
+export default EmailandPhone;
