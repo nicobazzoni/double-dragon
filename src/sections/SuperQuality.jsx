@@ -1,6 +1,8 @@
 import { shoe8 } from "../assets/images";
 import { Button } from "../components";
 
+import logo from "../assets/images/belts.webp";
+
 const SuperQuality = () => {
   return (
     <section
@@ -28,7 +30,7 @@ Through this course, students have the opportunity to push their skills, techniq
 
       <div className='flex-1 flex justify-center items-center'>
         <img
-          src='https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/342358821_1408774753193250_8859410418874307293_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5614bc&_nc_ohc=E1F53wcW3foAX8s4yXF&_nc_ht=scontent-lga3-2.xx&oh=00_AfBIKECxGegPRldTZLA7nfTldScRop_fNb0RHQuweJ1B3Q&oe=65279518'
+          src={logo}
           alt='product detail'
           width={570}
           height={522}
